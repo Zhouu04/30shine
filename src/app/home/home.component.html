@@ -1,0 +1,188 @@
+<div  style="background-color: #f5f5f7;">
+    <div class="container">
+      <app-slide [images]="imagesForSlide"></app-slide>
+      <app-set-schedule></app-set-schedule>
+      <div class="service" >
+        <div class="row mt-5 py-5" style="margin: 0px 55px">
+            <h2 class="fw-bold">
+                DICH VU TOC
+            </h2>
+            <div class="col-md-4">
+                <div class="card shadow position-relative">
+                    <img src="https://storage.30shine.com/web/v4/images/pc/pc_home_toc_1.png"  class="card-img-top" alt="...">
+                    <div class="card-body position-absolute ">
+                        <div class="card-title">
+                            <h3 class="fw-bold">
+                                Cat toc
+                            </h3>
+                        </div>
+                        <div class="card-des d-flex justify-content-between">
+                            <div>
+                                <span style="margin-right: 100px ;" >Gia tu 70.000</span>
+                            </div>
+                            <div class="">  
+                                <a href="" style="text-decoration: none;">Chi tiet</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow" >
+                    <img src="https://storage.30shine.com/web/v4/images/pc/pc_home_toc_2.png"  class="card-img-top" alt="...">
+                    <div class="card-body position-absolute ">
+                        <div class="card-title">
+                            <h3 class="fw-bold">
+                                Uon dinh hinh
+                            </h3>
+                        </div>
+                        <div class="card-des d-flex justify-content-between">
+                            <div>
+                                <span style="margin-right: 100px ;" >Gia tu 348.000</span>
+                            </div>
+                            <div class="">  
+                                <a href="" style="text-decoration: none;">Chi tiet</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow" >
+                    <img src="https://storage.30shine.com/web/v4/images/pc/pc_home_toc_3.png"  class="card-img-top" alt="...">
+                    <div class="card-body position-absolute ">
+                        <div class="card-title">
+                            <h3 class="fw-bold">
+                                Thay doi mau toc
+                            </h3>
+                        </div>
+                        <div class="card-des d-flex justify-content-between">
+                            <div>
+                                <span style="margin-right: 100px ;" >Gia tu 199.000</span>
+                            </div>
+                            <div class="">  
+                                <a href="" style="text-decoration: none;">Chi tiet</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="row py-5" style="margin: 0px 55px">
+            <h2 class="fw-bold">
+                SPA & RELAX
+            </h2>
+            <div class="col-md-4">
+                <div class="card shadow position-relative">
+                    <img src="https://storage.30shine.com/web/v4/images/pc/pc_home_spa_1.png"  class="card-img-top" alt="...">
+                    <div class="card-body position-absolute ">
+                        <div class="card-title">
+                            <h3 class="fw-bold">
+                                Goi massage relax
+                            </h3>
+                        </div>
+                        <div class="card-des d-flex justify-content-between">
+                            <div>
+                                <span style="margin-right: 100px ;" >Gia tu 135.000</span>
+                            </div>
+                            <div class="">  
+                                <a href="" style="text-decoration: none;">Chi tiet</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow" >
+                    <img src="https://storage.30shine.com/web/v4/images/pc/pc_home_spa_2.png"  class="card-img-top" alt="...">
+                    <div class="card-body position-absolute ">
+                        <div class="card-title">
+                            <h3 class="fw-bold">
+                                Cham soc da SPA
+                            </h3>
+                        </div>
+                        <div class="card-des d-flex justify-content-between">
+                            <div>
+                                <span style="margin-right: 100px ;" >Gia tu 199.000</span>
+                            </div>
+                            <div class="">  
+                                <a href="" style="text-decoration: none;">Chi tiet</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow" >
+                    <img src="https://storage.30shine.com/web/v4/images/pc/pc_home_spa_3.png"  class="card-img-top" alt="...">
+                    <div class="card-body position-absolute ">
+                        <div class="card-title">
+                            <h3 class="fw-bold">
+                                Lay ray tai em
+                            </h3>
+                        </div>
+                        <div class="card-des d-flex justify-content-between">
+                            <div>
+                                <span style="margin-right: 100px ;" >Gia tu 70.000</span>
+                            </div>
+                            <div class="">  
+                                <a href="" style="text-decoration: none;">Chi tiet</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="row py-5 angles" style="margin: 0px 55px">
+            <h2 class="fw-bold">
+                30Shine Angles
+            </h2>
+            <span class="py-3">Doi ngu skincare het long vi khach hang</span>
+            <app-carousel [carouselItems]="angles"></app-carousel>
+        </div>
+
+        <div class="row py-5 angles" style="margin: 0px 55px">
+            <h2 class="fw-bold">
+                30Shine Stylist
+            </h2>
+            <span class="py-3">Doi ngu stylist day dan kinh nghiem</span>
+            <app-carousel [carouselItems]="stylist"></app-carousel>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="" style="background-color: #fff;">
+    <div class="container">
+        <div class="shop">
+            <div class="row mt-5 py-5" style="margin: 0px 55px">
+                <h2 class="fw-bold">
+                    30Shine Shop
+                </h2>
+                <span class="py-3">My pham nam cao cap chinh hang</span>
+                <div class="shop-img pb-4 ">
+                    <img  class="rounded-3 img" src="https://storage.30shine.com/web/v4/images/banner_shop_pc.jpeg" class="img-fluid" alt="...">
+                </div>
+                <app-carousel [carouselItems]="imgShop"></app-carousel>
+            </div>
+        </div>
+
+        <div class="offer">
+            <div class="row mt-5 py-5" style="margin: 0px 55px">
+                <h2 class="fw-bold">
+                    Uu dai
+                </h2>
+                <span class="py-3">Qua tang, chiet khau dac biet cap nhat lien tuc</span>
+                <app-carousel [carouselItems]="imgOffer" ></app-carousel>
+            </div>
+        </div>
+    </div>
+</div>
+
+<app-footer></app-footer>

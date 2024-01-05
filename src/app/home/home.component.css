@@ -1,0 +1,52 @@
+
+
+h2, h3 {
+    color: #15397f;
+}
+
+
+
+.service-title
+{
+    content: "";
+    width: 5px;
+    height: 22px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    background-color: #a0c9eb;
+}
+
+.card {
+    border-radius: 16px;
+    
+}
+
+.card-body {
+    bottom: 8px;
+    width: 100%;
+}
+
+.card img:hover {
+    transition: all linear 0.2s;
+    opacity: 0.8;
+}
+
+.angles span {
+    color:#15397f;
+}
+
+.shop-img {
+    overflow: hidden;
+}
+
+.shop-img img:hover {
+    border-radius: 6px;
+}
+
+.shop-img img:hover {
+    transform: scale(1.0125);
+    transition: all ease 0.25s;
+}   
+

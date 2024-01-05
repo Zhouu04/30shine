@@ -1,0 +1,56 @@
+.test {
+    display: flex;
+    transition: transform 0.5s ease;
+    overflow: hidden;
+  }
+  
+  .test-item {
+    width: 300px; /* Adjust this based on your item width */
+    margin-right: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    transition: transform 0.5s ease;
+
+  }
+
+  .carousel-media {
+    overflow: hidden;
+  }
+  
+  .carousel-media img:hover {
+    transform: scale(1.2);
+    transition: all linear 0.25s;
+  }
+
+  .next {
+    padding: 50px 15px;
+    right: 0;
+    bottom: 150px;
+    opacity: 0.6;
+  }
+
+  .pre {
+    padding: 50px 15px;
+    left: 0;
+    bottom: 150px;
+    opacity: 0.6;
+  }
+
+  span:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: 0.25s;
+  }
+
+  /* product-list.component.css */
+.top_product_des_title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2; /* Số dòng tối đa bạn muốn hiển thị */
+}
+
+ 
+  
+  

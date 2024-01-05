@@ -1,0 +1,26 @@
+<!-- carousel.component.html -->
+
+<div class="test position-relative"  >
+    <div class="test-item" *ngFor="let item of carouselItems" [style.transform]="'translateX(' + translateValue + 'px)'">
+      <a [href]="item.link" >
+        <div class="carousel-media">
+          <img width="242" height="326" [src]="item.image || item.imageUrl  " alt="combo service">
+        </div>
+      </a>
+      <a [href]="item.link">
+        <div class="carousel-title fw-bold text-dark top_product_des_title" style="text-decoration: none;">{{ item.title || item.name }}</div>
+      </a>
+      <p *ngIf="item.location || item.price">{{item.location || item.price}}</p>
+    </div>
+    <div class="position-absolute pre" *ngIf="this.translateValue < 0" (click)="previousSlide()">
+      <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+    </div>
+    <div class="position-absolute next" *ngIf="this.translateValue > -1680" (click)="nextSlide()">
+      <span aria-hidden="true" class="carousel-control-next-icon"></span>
+    </div>
+</div>
+
+
+
+
+  
